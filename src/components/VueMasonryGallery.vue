@@ -133,7 +133,7 @@
 }
 </style>
 
-<!-- —————————————↓HTML————————————————— -->
+<!-- ————————————↓HTML————————————————— -->
 <template lang="pug">
 .vue-masonry-gallery-container(:style="{width: width&&!isMobile ? width+'px' : '', height: parseFloat(height)==height ? height+'px': height }")
   .loading.ball-beat(v-show="isPreloading_c", :class="{first:isFirstLoad}")
